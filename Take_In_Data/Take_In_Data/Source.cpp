@@ -25,7 +25,7 @@ void pause() {
 void main() {
 		//Variables
 		int soda_kids_count;
-		char question_hardest
+		char question_hardest;
 		bool answersMatcheds = false; // which question was hardest
 
 
@@ -44,18 +44,18 @@ void main() {
 		cout << "1 : ";
 		cin >> calc_1;
 		cout << "2 : ";
-		cin >> calc_2
+		cin >> calc_2;
 		cout << "5 : ";
 		cin >> calc_3;
 
 
 		// After questons print out stored data 
 		cout << "I think you are correct, " << soda_kids_count << " sodas are too much. \n";
-		cout << "I think question " << question_hardest << " was the hardest." << end1;
+		cout << "I think question " << question_hardest << " was the hardest." << 'end1';
 		cout << "I think question " << answersMatcheds << " was the hardest. \n";
 
 		// Do some calculations
-		cout << calc_1 << " + " << calc_2 << " = " << calc_1 + calc_2 << end1; 
+		cout << calc_1 << " + " << calc_2 << " = " << calc_1 + calc_2 << 'end1'; 
 		calc_4 = calc_2 * calc_3;
 		cout << calc_2 << " * " << calc_3 << " = " << calc_4 << "\n";
 
